@@ -1,4 +1,4 @@
-module github.com/lucs-t/merge_conf
+module github.com/lucs-t/kubeconfig_merge
 
 go 1.21.13
 

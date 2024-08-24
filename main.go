@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/lucs-t/merge_conf/models"
+	"github.com/lucs-t/kubeconfig_merge/models"
 )
 
 func main(){

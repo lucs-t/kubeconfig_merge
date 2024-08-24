@@ -67,5 +67,5 @@ func (c *Kubeconfig) Save(filepath string)error{
 		log.Println(err)
 		return err
 	}
-	return os.WriteFile(filepath,writer,os.ModePerm)
+	return os.WriteFile(filepath,writer,0700)
 }
